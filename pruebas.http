@@ -1,0 +1,44 @@
+### Registrar un usuario
+POST http://localhost:8000/api/register.php
+Content-Type: application/json
+
+{
+  "nombre": "Lola",
+  "email": "lola@example.com",
+  "contrasenia": "lola",
+  "rol": ""
+}
+
+
+###
+POST http://localhost:8000/api/register.php
+Content-Type: application/json
+
+{
+    "nombre": "ana",
+    "email": "ana@gmail.com",
+    "contrasenia": "ana",
+    "rol": "Administrador"
+}
+
+###
+POST http://localhost:8000/api/register.php
+Content-Type: application/json
+
+{
+    "nombre": "pepe",
+    "email": "pepe@gmail.com",
+    "contrasenia": "pepe",
+    "rol": ""
+}
+
+###
+POST http://localhost:8000/api/login.php
+Content-Type: application/json
+
+{
+  
+    "email": "pepe@gmail.com",
+    "contrasenia": "pepe"
+    
+}

@@ -1,0 +1,14 @@
+Proyecto_UD8/
+├── api/
+│   ├── config.php       # Configuración de la conexión a la base de datos.
+│   ├── register.php     # Registro de usuarios.
+│   ├── login.php        # Inicio de sesión.
+│   ├── logout.php       # Cierre de sesión.
+│   ├── empleados.php        # Endpoints relacionados con libros.
+├── public/
+│   ├── index.html       # Página principal.
+│   ├── main.js          # Lógica de interacción cliente-API.
+│   ├── styles.css       # Estilo del proyecto.
+├── sql/
+│   ├── schema.sql       # Esquema de la base de datos.
+├

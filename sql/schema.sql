@@ -1,14 +1,9 @@
-/* 
-RESTRICCIÓN:
-En este diseño de base de datos tenemos una restricción. Sólo se va a poder realizar pedidos 
-de un mismo producto, no importa la cantidad, pero sólo de un producto. Entonces la relación 
-entre productos y pedidos es de 1:1 . 
-*/
-
 DROP DATABASE IF EXISTS GestionPedidos;
 CREATE DATABASE GestionPedidos;
 
+
 USE GestionPedidos;
+
 
 CREATE TABLE empleados (
     num_empleado INT AUTO_INCREMENT PRIMARY KEY,
@@ -30,14 +25,22 @@ CREATE TABLE pedidos (
     id_pedido INT AUTO_INCREMENT PRIMARY KEY,
     precio_total DECIMAL(8,2),
     fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    cantidad INT,
     num_empleado INT,
-    id_producto INT,
-    status ENUM('Pendiente', 'En preparación', 'Entregado') DEFAULT 'Pendiente',
-    FOREIGN KEY (num_empleado) REFERENCES empleados(num_empleado) ON DELETE CASCADE,
-    FOREIGN KEY (id_producto) REFERENCES productos(id_producto) ON DELETE CASCADE
+    estado ENUM('Pendiente', 'En preparación', 'Entregado') DEFAULT 'Pendiente',
+    FOREIGN KEY (num_empleado) REFERENCES empleados(num_empleado) ON DELETE CASCADE
+    
 );
 
+
+CREATE TABLE detalle_pedido (  
+    id_pedido INT,    
+    id_producto INT,
+    cantidad_producto int,
+    PRIMARY KEY( id_pedido, id_producto),
+    FOREIGN KEY (id_pedido) REFERENCES pedidos(id_pedido) ON DELETE CASCADE,
+    FOREIGN KEY (id_producto) REFERENCES productos(id_producto) ON DELETE CASCADE
+    
+);
 
 /*Crear usuario
 CREATE USER usu_gestion IDENTIFIED BY "usu_gestion";

@@ -1,0 +1,14 @@
+
+[12-Feb-2025 08:17:11 Europe/Berlin] PHP Warning:  Attempt to read property "nombre" on null in C:\xampp\htdocs\daw2_tarde\PHP\UD8_\Proyecto_UD8\api\register.php on line 18
+[12-Feb-2025 08:17:11 Europe/Berlin] PHP Warning:  Attempt to read property "email" on null in C:\xampp\htdocs\daw2_tarde\PHP\UD8_\Proyecto_UD8\api\register.php on line 19
+[12-Feb-2025 08:17:11 Europe/Berlin] PHP Warning:  Attempt to read property "contrasenia" on null in C:\xampp\htdocs\daw2_tarde\PHP\UD8_\Proyecto_UD8\api\register.php on line 20
+[12-Feb-2025 08:17:11 Europe/Berlin] PHP Warning:  Attempt to read property "rol" on null in C:\xampp\htdocs\daw2_tarde\PHP\UD8_\Proyecto_UD8\api\register.php on line 21
+[12-Feb-2025 08:33:21 Europe/Berlin] PHP Warning:  Undefined property: stdClass::$constrasenia in C:\xampp\htdocs\daw2_tarde\PHP\UD8_\Proyecto_UD8\api\register.php on line 21
+[13-Feb-2025 13:22:07 Europe/Berlin] $2y$10$c2Qapf0hclqXtVcEqeCdHuZoM5Fihw.SUM0HpxP8hQ9X1dXh1Hmoi
+[13-Feb-2025 13:22:07 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\daw2_tarde\PHP\ProyectoGestionPedidos\api\login.php on line 41
+[13-Feb-2025 13:22:07 Europe/Berlin] 
+[13-Feb-2025 13:22:07 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\daw2_tarde\PHP\ProyectoGestionPedidos\api\login.php on line 49
+[13-Feb-2025 13:22:07 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\daw2_tarde\PHP\ProyectoGestionPedidos\api\login.php on line 50
+[13-Feb-2025 13:41:43 Europe/Berlin] $2y$10$c2Qapf0hclqXtVcEqeCdHuZoM5Fihw.SUM0HpxP8hQ9X1dXh1Hmoi
+[13-Feb-2025 13:41:43 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\daw2_tarde\PHP\ProyectoGestionPedidos\api\login.php on line 41
+[13-Feb-2025 13:41:43 Europe/Berlin] 
