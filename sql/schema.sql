@@ -1,7 +1,9 @@
 DROP DATABASE IF EXISTS GestionPedidos;
 CREATE DATABASE GestionPedidos;
 
+
 USE GestionPedidos;
+
 
 CREATE TABLE empleados (
     num_empleado INT AUTO_INCREMENT PRIMARY KEY,
