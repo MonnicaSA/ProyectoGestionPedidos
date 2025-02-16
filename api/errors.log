@@ -12,3 +12,12 @@
 [13-Feb-2025 13:41:43 Europe/Berlin] $2y$10$c2Qapf0hclqXtVcEqeCdHuZoM5Fihw.SUM0HpxP8hQ9X1dXh1Hmoi
 [13-Feb-2025 13:41:43 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\daw2_tarde\PHP\ProyectoGestionPedidos\api\login.php on line 41
 [13-Feb-2025 13:41:43 Europe/Berlin] 
+[16-Feb-2025 19:14:56 Europe/Berlin] PHP Warning:  Undefined variable $precio_total in C:\xampp\htdocs\daw2_tarde\PHP\ProyectoGestionPedidos\api\pedidos.php on line 50
+[16-Feb-2025 19:17:30 Europe/Berlin] PHP Warning:  Undefined variable $precio_total in C:\xampp\htdocs\daw2_tarde\PHP\ProyectoGestionPedidos\api\pedidos.php on line 50
+[16-Feb-2025 19:25:33 Europe/Berlin] $2y$10$Xg9eRqWqO6i/rj2E0Y3goeCJwXw8dwYtY85tnv6TymM9C4k6l6x/.
+[16-Feb-2025 19:25:33 Europe/Berlin] 3
+[16-Feb-2025 19:28:11 Europe/Berlin] PHP Warning:  Undefined variable $precio_total in C:\xampp\htdocs\daw2_tarde\PHP\ProyectoGestionPedidos\api\pedidos.php on line 50
+[16-Feb-2025 20:13:18 Europe/Berlin] $2y$10$saX6kaiAWlzz1J8ygoOuR.hfX.96UQ8x7p5aFre1FTH4nAyGjBEtm
+[16-Feb-2025 20:13:18 Europe/Berlin] 2
+[16-Feb-2025 20:14:15 Europe/Berlin] $2y$10$saX6kaiAWlzz1J8ygoOuR.hfX.96UQ8x7p5aFre1FTH4nAyGjBEtm
+[16-Feb-2025 20:14:15 Europe/Berlin] 2

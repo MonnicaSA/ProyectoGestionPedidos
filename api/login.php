@@ -30,7 +30,7 @@ $email = $data->email;
 $contrasenia = $data->contrasenia;
 
 try{
-  $query = "SELECT num_empleado, email, contrasenia FROM empleados WHERE email = ?"; 
+  $query = "SELECT num_empleado, email, contrasenia, rol FROM empleados WHERE email = ?"; 
   $stm = $pdo->prepare($query);
   $stm->execute([$email]);
 
@@ -38,21 +38,31 @@ try{
   $user = $stm->fetch(PDO::FETCH_ASSOC); //$user es un array asociativo
 
   error_log($user["contrasenia"]);
-  error_log($user["id"]);
+  error_log($user["num_empleado"]);
    
   //Si email existe se guarda en el array $user en el campo email
-  if($user)
+  if($user){
    //Se obtiene la contrasenia
     $contraseniaEncontrada = $user["contrasenia"];
    //Si la contrasenia encontrada es igual a la contraseña ingresada
     if(password_verify( $contrasenia,  $contraseniaEncontrada)){
-     $_SESSION["user_id"] = $user["num_empleado"]; //se crea la sesión
-     echo json_encode(["numEmpleado" => $user['num_empleado'], 'message' => 'Inicio de sesión exitoso'] );
+      //Guardar la sesión
+     $_SESSION["num_empleado"] = $user["num_empleado"]; //se crea la sesión
+     $_SESSION["rol_empleado"] = $user["rol"];
+     
+     //json devuelve el mensaje al frontEnd
+     echo json_encode(["numEmpleado" => $user['num_empleado'], "rolEmpleado" => $user["rol"], 'message' => 'Inicio de sesion exitoso'] );
+
    } else{
-       echo json_encode(["message" => "Contraseña incorrecta"] );
+       echo json_encode(["message" => "contraseña incorrecta"]);
    }
+
+  }else{
+    echo json_encode(["message" => "Usuario no encontrado"]);
+  }
 }catch(PDOException $e){
-      echo json_encode(["error" => "Usuario no encontrado "]);
+   echo json_encode(["error" => "Usuario no encontrado"]);
 }
 
-?>
+
+

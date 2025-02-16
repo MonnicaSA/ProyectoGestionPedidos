@@ -15,10 +15,10 @@ POST http://localhost:8000/api/register.php
 Content-Type: application/json
 
 {
-    "nombre": "ana",
-    "email": "ana@gmail.com",
+    "nombre": "maria",
+    "email": "maria@gmail.com",
     "contrasenia": "ana",
-    "rol": "Administrador"
+    "rol": ""
 }
 
 ###
@@ -38,7 +38,22 @@ Content-Type: application/json
 
 {
   
-    "email": "pepe@gmail.com",
-    "contrasenia": "pepe"
+    "email": "maria@gmail.com",
+    "contrasenia": "ana"
     
 }
+
+### INsertar un pedido
+POST http://localhost:8000/api/pedidos.php
+Content-Type: application/json
+
+{  
+  "productos": [
+    { "id_producto": 1, "cantidad": 3 },
+    { "id_producto": 2, "cantidad": 5 }
+  ]
+}
+
+### Obtener los pedidos
+GET http://localhost:8000/api/pedidos.php?num_empleado=3
+Content-Type: application/json
