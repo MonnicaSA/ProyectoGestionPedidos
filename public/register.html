@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+
+<body>
+    <div class="container-registro">
+        <h1>Registro:</h1>
+        <!-- <form id="registerForm" method="post" action="/api/register.php"> -->
+        <form id="registerForm">
+            <div class="registro">
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div>
+                <label for="email">email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="rol"> Elige el rol:</label>
+                <select id="rol" name="rol">
+                    <option value="camarero">Camarero</option>
+                    <option value="administrador">Administrador</option>
+                </select>
+            </div>
+            <div>
+                <label for="contrasenia">Contraseña</label>
+                <input type="password" id="contrasenia" name="contrasenia" required>
+            </div>
+            <div>
+                <button type="submit">Registrarse</button>
+            </div>
+        </form>
+        <script src="main.js"></script>
+    </div>
+</body>
+
+</html>
