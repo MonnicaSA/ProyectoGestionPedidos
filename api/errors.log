@@ -26,3 +26,89 @@
 [17-Feb-2025 15:48:38 Europe/Berlin] 7
 [17-Feb-2025 16:00:31 Europe/Berlin] $2y$10$PQvZxaWqN58phZI44daCXuMCGdoXuqWX6pqyKcaITiLWZ/NwhMa56
 [17-Feb-2025 16:00:31 Europe/Berlin] 7
+[24-Feb-2025 00:07:52 Europe/Berlin] PHP Warning:  Attempt to read property "productos" on array in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php on line 38
+[24-Feb-2025 00:08:39 Europe/Berlin] PHP Warning:  Attempt to read property "productos" on array in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php on line 38
+[24-Feb-2025 00:17:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php:36
+Stack trace:
+#0 {main}
+  thrown in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php on line 36
+[24-Feb-2025 00:20:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php:38
+Stack trace:
+#0 {main}
+  thrown in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php on line 38
+[24-Feb-2025 00:25:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php:38
+Stack trace:
+#0 {main}
+  thrown in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php on line 38
+[24-Feb-2025 00:25:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php:38
+Stack trace:
+#0 {main}
+  thrown in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php on line 38
+[24-Feb-2025 00:27:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php:38
+Stack trace:
+#0 {main}
+  thrown in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php on line 38
+[24-Feb-2025 00:27:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php:38
+Stack trace:
+#0 {main}
+  thrown in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php on line 38
+[24-Feb-2025 00:28:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php:38
+Stack trace:
+#0 {main}
+  thrown in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php on line 38
+[24-Feb-2025 17:33:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php:38
+Stack trace:
+#0 {main}
+  thrown in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php on line 38
+[24-Feb-2025 17:37:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php:38
+Stack trace:
+#0 {main}
+  thrown in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php on line 38
+[24-Feb-2025 17:40:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php:39
+Stack trace:
+#0 {main}
+  thrown in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php on line 39
+[24-Feb-2025 17:48:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php:39
+Stack trace:
+#0 {main}
+  thrown in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php on line 39
+[24-Feb-2025 17:51:35 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php:39
+Stack trace:
+#0 {main}
+  thrown in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php on line 39
+[24-Feb-2025 17:51:35 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php:39
+Stack trace:
+#0 {main}
+  thrown in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php on line 39
+[24-Feb-2025 17:51:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php:39
+Stack trace:
+#0 {main}
+  thrown in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php on line 39
+[24-Feb-2025 17:57:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php:39
+Stack trace:
+#0 {main}
+  thrown in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php on line 39
+[24-Feb-2025 17:57:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php:39
+Stack trace:
+#0 {main}
+  thrown in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php on line 39
+[24-Feb-2025 17:57:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php:39
+Stack trace:
+#0 {main}
+  thrown in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php on line 39
+[24-Feb-2025 18:13:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php:39
+Stack trace:
+#0 {main}
+  thrown in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php on line 39
+[24-Feb-2025 20:12:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php:39
+Stack trace:
+#0 {main}
+  thrown in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php on line 39
+[24-Feb-2025 20:17:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php:39
+Stack trace:
+#0 {main}
+  thrown in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php on line 39
+[24-Feb-2025 20:17:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php:39
+Stack trace:
+#0 {main}
+  thrown in C:\Users\monic\Documents\PHP\Proyectos\UD8\ProyectoGestionPedidos\api\pedidos1.php on line 39

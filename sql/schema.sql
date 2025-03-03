@@ -1,9 +1,7 @@
 DROP DATABASE IF EXISTS GestionPedidos;
 CREATE DATABASE GestionPedidos;
 
-
 USE GestionPedidos;
-
 
 CREATE TABLE empleados (
     num_empleado INT AUTO_INCREMENT PRIMARY KEY,
@@ -26,7 +24,7 @@ CREATE TABLE pedidos (
     id_pedido INT AUTO_INCREMENT PRIMARY KEY,
     fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     num_empleado INT NOT NULL,
-    --  precio_total DECIMAL(8,2),
+    precio_total DECIMAL(8,2),
     estado ENUM('Pendiente', 'En preparación', 'Entregado') DEFAULT 'Pendiente',
     FOREIGN KEY (num_empleado) REFERENCES empleados(num_empleado) ON DELETE CASCADE
 );
@@ -43,7 +41,4 @@ CREATE TABLE detalle_pedido (
 
 /*Crear usuario
 CREATE USER usu_gestion IDENTIFIED BY "usu_gestion";
-GRANT ALL ON GestionPedidos.* TO usu_gestion;   */
-
-
-    
+GRANT ALL ON GestionPedidos.* TO usu_gestion;   */ 

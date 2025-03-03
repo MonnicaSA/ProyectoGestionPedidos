@@ -1,0 +1,33 @@
+{"total":null}
+null
+null
+null
+null
+null
+null
+null
+null
+❌ Error: No se recibió JSON válido. Entrada: 
+✅ Total recibido en PHP: 5000
+✅ Session ID: cs_test_a1v8tJjFJONCbvs75aADroDglMfYB2fcxDKviZoqUV3bwDOYoRpyvgOZoN
+✅ Total recibido en PHP: 0
+✅ Total recibido en PHP: 0
+✅ Total recibido en PHP: 0
+✅ Total recibido en PHP: 0
+✅ Total recibido en PHP: 0
+✅ Total recibido en PHP: 850
+✅ Session ID: cs_test_a13qsFwDTTFyNR8OXUXLfhyLA1BXgEvT2E7OMt8KCWOK6iZyvPsG1EX4Nq
+✅ Total recibido en PHP: 920
+✅ Session ID: cs_test_a1Fg7A5E9te0D1ZnHSVxxD1Y9l0TbPd3nOI8ikkhgzlHpGG3EnYiMsyrYE
+✅ Total recibido en PHP: 2040
+✅ Session ID: cs_test_a1ojv2ACGBsebSiQXm1kz9HjsMD3rCfN3PrYSg1VcDEemHTvP5vzGuGujB
+✅ Total recibido en PHP: 500
+✅ Session ID: cs_test_a13NOXtFLD2FaS6oXMpDpmgC4hYy06M0Xg0URSIpkugFvpqwIUca1eTX5b
+✅ Total recibido en PHP: 780
+✅ Session ID: cs_test_a1AQtGG4M3d1qNOkLPzsoa2T4qawTXlEORHCpqUWmHJ2udvV6yZ4lvxTv9
+✅ Total recibido en PHP: 2030
+Session ID: cs_test_a1H8FhJyANIT1lfDljDluM9cGguI2ygyHR5nHCEVVjRYdeSTS3bQ0BFSOT
+✅ Total recibido en PHP: 2030
+Session ID: cs_test_a1FRulYYJiBqn3AQ0rNVYc63PtEoMfdmePp3beAu9kCCvBZzDJcUk2r1sy
+✅ Total recibido en PHP: 2030
+Session ID: cs_test_a1Cb0G2FG4yRZo6xCo098QyNHI2zHP5JfAOPO5w8M4EyLALMZTc9yW9qab

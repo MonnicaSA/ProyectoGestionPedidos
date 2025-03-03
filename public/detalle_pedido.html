@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+<link rel="stylesheet" href="style_detalle_pedido.css" />
+
+<body>
+  <div id="detallePedido" class="contenedor-detalle">
+    <h3>Detalle del pedido</h3>
+    <button id="btnVolver" onclick="window.location.href='lista_pedidos.html'">
+      Volver
+    </button>
+    <table id="tablaDetalle">
+      <thead>
+        <tr>
+          <th>Producto</th>
+          <th>Cantidad</th>
+          <th>Precio unitario</th>
+          <th>Precio total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Los productos se agregarán dinámicamente aquí -->
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Vincula el archivo JavaScript correctamente -->
+  <script src="main.js"></script>
+</body>
+
+</html>

@@ -16,7 +16,6 @@ if(!isset($data->nombre) || !isset($data->email) || !isset($data->contrasenia) |
   exit;
 } 
  
-
 $nombre = $data->nombre;
 $email = $data->email;
 $contrasenia = $data->contrasenia;

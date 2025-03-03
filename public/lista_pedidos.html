@@ -1,23 +1,69 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=4, initial-scale=1.0">
-    <title>Pedidos</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=4, initial-scale=1.0" />
+  <title>Pedidos</title>
+  <link rel="stylesheet" href="style_pedido.css" />
 </head>
+<style>
+  .container-botones {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+</style>
+
 <body>
-    <h2>Lista de Pedidos</h2>
-    <button id="btnAgregarPedido">Añadir Pedido</button>
-
-    <h3>Pedidos</h3>
-    <ul id="listaPedidos"></ul>
-
-    <div id="modalProductos" style="display: none;">
-        <h3>Seleccionar Productos</h3>
-        <ul id="listaProductos"></ul>
-        <button id="btnEnviarPedido">Confirmar Pedido</button>
+  <div class="container-botones">
+    <div class="cont-listapedido">
+      <h2>Lista de Pedidos</h2>
+      <button id="btnAgregarPedido" onclick="window.location.href='productos.html'">
+        Añadir Pedido
+      </button>
+      <!-- <button id="btnAgregarPedido">Añadir Pedido</button> voy a redirigir a otra pagina -->
+      <button id="btnCerrarSesion">Cerrar Sesión</button>
+      <!-- Botón de cierre de sesión -->
     </div>
+    <div class="content-actualizar">
+      <div id="modalActualizarEstado" style="display: none">
+        <h3>Actualizar Estado de Pedido</h3>
+        <select id="estadoPedido">
+          <option value="Pendiente">Pendiente</option>
+          <option value="En preparación">En preparación</option>
+          <option value="Entregado">Entregado</option>
+        </select>
+        <button id="btnActualizarPedido">Actualizar</button>
+        <button id="btnCancelarActualizar">Cancelar</button>
+      </div>
+    </div>
+  </div>
+  <!-- Tabla de Pedidos -->
+  <table id="tablaPedidos">
+    <thead>
+      <tr>
+        <th>Número de Pedido</th>
+        <th>Nombre del Empleado</th>
+        <th>Fecha</th>
+        <th>Estado</th>
+        <th>Precio Total</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Aquí se cargarán los pedidos dinámicamente -->
+    </tbody>
+  </table>
 
-    <script src="main.js"></script>
+  <!-- Modal para seleccionar productos -->
+
+  <div id="modalProductos" style="display: none">
+    <h3>Seleccionar Productos</h3>
+    <ul id="listaProductos"></ul>
+    <button id="btnEnviarPedido">Confirmar Pedido</button>
+    <button id="btnCerrarModal">Cerrar</button>
+  </div>
+
+  <script src="main.js"></script>
 </body>
 </html>

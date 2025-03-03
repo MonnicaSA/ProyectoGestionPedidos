@@ -1,0 +1,210 @@
+/*********** PAGINA PEDIDOS**************/
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* Botones */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+}
+
+button#btnAgregarPedido {
+  background-color: #3498db;
+  color: #fff;
+}
+
+button#btnAgregarPedido:hover {
+  background-color: #2980b9;
+}
+
+button#btnEnviarPedido,
+button#btnActualizarPedido {
+  background-color: #27ae60;
+  color: #fff;
+}
+
+button#btnEnviarPedido:hover,
+button#btnActualizarPedido:hover {
+  background-color: #219653;
+}
+
+button#btnCerrarModal,
+button#btnCancelarActualizar {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+button#btnCerrarModal:hover,
+button#btnCancelarActualizar:hover {
+  background-color: #c0392b;
+}
+
+/* Tabla de pedidos */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th,
+table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Modales */
+#modalProductos {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.content-actualizar {
+  display: flex;
+  justify-content: end;
+  /*  background-color: yellow; */
+  border-color: blue;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content h3 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.modal-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.modal-content ul li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.modal-content ul li:last-child {
+  border-bottom: none;
+}
+
+.modal-content select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+/* Botones dentro de modales */
+.modal-content button {
+  margin-right: 10px;
+}
+
+/* Responsividad */
+@media (max-width: 600px) {
+
+  table th,
+  table td {
+    padding: 8px;
+  }
+
+  button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .modal-content {
+    width: 95%;
+  }
+}
+
+/* Botón de cerrar sesión */
+button#btnCerrarSesion {
+  background-color: #e74c3c;
+  color: #fff;
+  margin-left: 10px;
+  /* Espacio entre los botones */
+}
+
+button#btnCerrarSesion:hover {
+  background-color: #c0392b;
+}
+
+/*TABLA DE DETALLE PEDIDO  */
+
+table#tablaDetalle {
+  width: 80%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th,
+table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+button#btnVolver {
+  background-color: #2980b9;
+  color: #fff;
+}

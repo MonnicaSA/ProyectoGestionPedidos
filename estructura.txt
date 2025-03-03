@@ -1,0 +1,35 @@
+ProyectoGestionPedidos/
+├── api/
+│   ├── checkout.php     # Configuración para el pago con Stripe
+│   ├── config.php       # Configuración de la conexión a la base de datos.
+│   ├── errors.log       # Registro de errores.
+│   ├── log_checkout.php # Registro de actividades de pago.
+│   ├── register.php     # Registro de usuarios.
+│   ├── login.php        # Inicio de sesión.
+│   ├── logout.php       # Cierre de sesión.
+│   ├── pedidos1.php     # Endpoints relacionados con pedidos.
+│   ├── productos.php    # Endpoints relacionados con productos.
+│   └── register.php     # Endpoints relacionados con el registro.
+│
+├── public/
+│   ├── detalle_pedido.html  # Detalle de un pedido.
+│   ├── index.html           # Página principal.
+│   ├── lista_pedidos.html   # Lista de pedidos.
+│   ├── main.js              # Lógica de interacción cliente-API.
+│   ├── main2.js             # Lógica de interacción cliente-API.
+│   ├── productos.html       # Lista de productos.
+│   ├── register.html        # Registro de usuarios.
+│   ├── style_detalle_pedido.css      # Estilo del proyecto.
+│   ├── style_pedido.css              # Estilo del proyecto.
+│   ├── style_productos.css           # Estilo del proyecto.
+│   ├── style.css            # Estilo del proyecto.
+│   └── success.html         # Página de éxito después de la operación de pago Stripe.
+│
+├── sql/
+│   ├── insert.sql           # Inserts a la base de datos.
+│   └── schema.sql           # Esquema de la base de datos.
+│
+├── stripe/                  # Carpeta con los archivos necesarios para el pago con Stripe
+│
+├── pruebas.http             # Archivo de pruebas HTTP.
+└── estructura.txt           # Archivo con la estructura del proyecto.

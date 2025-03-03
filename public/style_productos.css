@@ -1,0 +1,68 @@
+/* Estilos para productos.html */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+button#btnVolver {
+    background-color: #3498db;
+    color: #fff;
+}
+
+button#btnVolver:hover {
+    background-color: #2980b9;
+}
+
+button#btnConfirmarPedido {
+    background-color: #27ae60;
+    color: #fff;
+}
+
+button#btnConfirmarPedido:hover {
+    background-color: #219653;
+}
+
+#contenedorProductos h3 {
+    color: #2c3e50;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#contenedorProductos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contenedorProductos ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#contenedorProductos ul li:last-child {
+    border-bottom: none;
+}
+
+#contenedorProductos input {
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}

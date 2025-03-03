@@ -9,9 +9,6 @@ Content-Type: application/json
   "rol": "Camarero"
 }
 
-
-
-
 ###
 POST http://localhost:8000/api/register.php
 Content-Type: application/json
@@ -34,7 +31,7 @@ Content-Type: application/json
     "rol": ""
 }
 
-###
+### Iniciar sesión con usuario normal
 POST http://localhost:8000/api/login.php
 Content-Type: application/json
 
@@ -45,13 +42,24 @@ Content-Type: application/json
     
 }
 
-//`pruebas para pedido
+### Iniciar sesión con Administrador
+POST http://localhost:8000/api/login.php
+Content-Type: application/json
+
+{
+  
+    "email": "ana@gmail.com",
+    "contrasenia": "ana"
+    
+}
+
+// pruebas para pedido
 ### Obtener pedidos del usuario autenticado
-GET http://localhost:8000/api/pedidos.php
+GET http://localhost:8000/api/pedidos1.php
 Content-Type: application/json
 
 ### Crear un nuevo pedido,
-POST http://localhost:8000/api/pedidos.php
+POST http://localhost:8000/api/pedidos1.php
 Content-Type: application/json
 
 {
@@ -75,18 +83,18 @@ Content-Type: application/json
 
 
 ### Actualizar estado de un pedido
-PUT http://localhost/api/pedidos.php
+PUT http://localhost:8000/api/pedidos1.php
 Content-Type: application/json
 
 {
-    "id_pedido": 1,
+    "id_pedido": 30,
     "estado": "En preparación"
 }
 
 ### Eliminar un pedido
-DELETE http://localhost/api/pedidos.php
+DELETE http://localhost:8000/api/pedidos1.php
 Content-Type: application/json
 
 {
-    "id_pedido": 2
+    "id_pedido": 28
 }

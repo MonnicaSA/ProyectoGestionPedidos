@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="style_productos.css">
+
+</head>
+
+<body>
+    <h2>Seleccionar Productos</h2>
+    <button id="btnVolver" onclick="window.location.href='lista_pedidos.html'">Volver</button>
+
+    <!-- Contenedor para los productos agrupados por tipo -->
+    <div id="contenedorProductos"></div>
+
+    <button id="btnConfirmarPedido">Confirmar Pedido</button>
+
+    <!-- CREAR BOTON PARA HACER EL PAGO -->
+    <button id="checkout-button">Pagar</button>
+
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="main2.js"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
